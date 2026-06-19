@@ -1,0 +1,9 @@
+Function: add, args: (3, 5), kwargs: {}
+Function: multiply, args: (4, 6), kwargs: {}
+Function: greet, args: ('Alice',), kwargs: {}
+Function: greet, args: ('Bob',), kwargs: {'message': 'Hi'}
+Called wrapper with args=(1000,), kwargs={}
+Called wrapper with args=(1000,), kwargs={}
+Called wrapper with args=(1000,), kwargs={}
+Called wrapper with args=(1000,), kwargs={}
+Called wrapper with args=(1000,), kwargs={}

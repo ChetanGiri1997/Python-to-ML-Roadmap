@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Alice",
+    "department": "IT",
+    "salary": 70000
+  },
+  {
+    "name": "Bob",
+    "department": "HR",
+    "salary": 50000
+  },
+  {
+    "name": "Charlie",
+    "department": "IT",
+    "salary": "invalid"
+  },
+  {
+    "name": "David",
+    "department": "Finance",
+    "salary": 90000
+  },
+  {
+    "name": "Eva",
+    "department": "HR",
+    "salary": -30000
+  },
+  {
+    "name": "Frank",
+    "department": "IT",
+    "salary": 80000
+  },
+  {
+    "name": "Grace",
+    "department": "Finance"
+  },
+  {
+    "name": "Hank",
+    "department": "IT",
+    "salary": 60000
+  },
+  {
+    "name": "Ivy",
+    "department": "HR",
+    "salary": 55000
+  },
+  {
+    "name": "Jack",
+    "department": "Finance",
+    "salary": 100000
+  },
+  {
+    "name": "Kira",
+    "department": "IT",
+    "salary": 72000
+  },
+  {
+    "name": "Leo",
+    "department": "HR",
+    "salary": 51000
+  }
+]
