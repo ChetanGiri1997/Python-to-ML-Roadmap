@@ -419,7 +419,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 - 💬 **Discussions**: Join our GitHub Discussions for Q&A
 - 🐛 **Issues**: Report bugs or request features
 - 📧 **Email**: info@chetangiri.com.np
-- 🌐 **Website**: [chetangiri.com.np]([https://chetangiri.com.np/])
+- 🌐 **Website**: [chetangiri.com.np](https://chetangiri.com.np/)
 
 ## 📝 License
 
