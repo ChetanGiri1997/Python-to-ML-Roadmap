@@ -418,8 +418,8 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 - 💬 **Discussions**: Join our GitHub Discussions for Q&A
 - 🐛 **Issues**: Report bugs or request features
-- 📧 **Email**: support@python-ml-roadmap.com
-- 🌐 **Website**: [python-ml-roadmap.com](https://python-ml-roadmap.com)
+- 📧 **Email**: info@chetangiri.com.np
+- 🌐 **Website**: [chetangiri.com.np]([https://chetangiri.com.np/])
 
 ## 📝 License
 
