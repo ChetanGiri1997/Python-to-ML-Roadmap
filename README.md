@@ -36,202 +36,71 @@ Dive deep into ML algorithms, ensemble methods, and deep learning
 
 ## 🗂️ Project Structure
 
-```
+```text
 Python-ML-Mastery-Roadmap/
-├── 📋 README.md
-├── 📝 requirements.txt
-├── 🎯 learning_objectives.md
-├── 📊 progress_tracker.md
-├── 
-├── 📁 datasets/
-│   ├── 🏠 housing/
-│   │   ├── california_housing.csv
-│   │   └── boston_housing.csv
-│   ├── 🌸 classification/
-│   │   ├── iris.csv
-│   │   ├── titanic.csv
-│   │   ├── breast_cancer.csv
-│   │   └── wine_quality.csv
-│   ├── 📈 financial/
-│   │   ├── stock_prices.csv
-│   │   └── credit_card_fraud.csv
-│   ├── 🖼️ images/
-│   │   ├── mnist_subset/
-│   │   └── cifar10_subset/
-│   ├── 📝 text/
-│   │   ├── imdb_reviews.csv
-│   │   └── spam_emails.csv
-│   └── ⏰ time_series/
-│       ├── airline_passengers.csv
-│       └── sensor_data.csv
+├── README.md
 │
-├── 🔰 **Week 01 - Python Foundations: Variables & Data Types**
-│   ├── 💪 01_variables_and_datatypes_exercises.ipynb
-│   ├── ✅ 01_variables_and_datatypes_solutions.ipynb
-│   ├── 💪 02_collections_and_structures_exercises.ipynb
-│   ├── ✅ 02_collections_and_structures_solutions.ipynb
-│   ├── 💪 03_operators_and_expressions_exercises.ipynb
-│   ├── ✅ 03_operators_and_expressions_solutions.ipynb
-│   ├── 💪 04_control_flow_basics_exercises.ipynb
-│   ├── ✅ 04_control_flow_basics_solutions.ipynb
-│   ├── 💪 05_loops_and_iteration_exercises.ipynb
-│   ├── ✅ 05_loops_and_iteration_solutions.ipynb
-│   ├── 💪 06_advanced_python_basics_exercises.ipynb
-│   └── ✅ 06_advanced_python_basics_solutions.ipynb
+├── Week 01 - Python Foundations: Variables & Data Types
+│   ├── 01_variables_and_datatypes_exercise.ipynb
+│   ├── 01_variables_and_datatypes_solutions.ipynb
+│   ├── 02_collections_and_structures_exercises.ipynb
+│   ├── 02_collections_and_structures_solution.ipynb
+│   ├── 03_operators_and_expressions_exercises.ipynb
+│   ├── 03_operators_and_expressions_solution.ipynb
+│   ├── 04_control_flow_basics_exercises.ipynb
+│   ├── 04_control_flow_basics_solution.ipynb
+│   ├── 05_loops_and_iteration_exercises.ipynb
+│   ├── 05_loops_and_iteration_solution.ipynb
+│   ├── 06_advanced_python_basics_exercises.ipynb
+│   └── 06_advanced_python_basics_solution.ipynb
 │
-├── 🚀 **Week 02 - Advanced Control Flow & Logic**
-│   ├── 💪 07_conditional_logic_mastery_exercises.ipynb
-│   ├── ✅ 07_conditional_logic_mastery_solutions.ipynb
-│   ├── 💪 08_string_manipulation_advanced_exercises.ipynb
-│   ├── ✅ 08_string_manipulation_advanced_solutions.ipynb
-│   ├── 💪 09_mathematical_algorithms_exercises.ipynb
-│   ├── ✅ 09_mathematical_algorithms_solutions.ipynb
-│   ├── 💪 10_pattern_generation_exercises.ipynb
-│   ├── ✅ 10_pattern_generation_solutions.ipynb
-│   ├── 💪 11_algorithm_optimization_exercises.ipynb
-│   ├── ✅ 11_algorithm_optimization_solutions.ipynb
-│   ├── 💪 12_computational_thinking_exercises.ipynb
-│   └── ✅ 12_computational_thinking_solutions.ipynb
+├── Week 02 - Advanced Control Flow & Logic
+│   ├── 07_conditional_logic_mastery_exercises.ipynb
+│   ├── 07_conditional_logic_mastery_solutions.ipynb
+│   ├── 08_string_manipulation_advanced_exercises.ipynb
+│   ├── 08_string_manipulation_advanced_solutions.ipynb
+│   ├── 09_mathematical_algorithms_exercises.ipynb
+│   ├── 09_mathematical_algorithms_solutions.ipynb
+│   ├── 10_pattern_generation_exercises.ipynb
+│   └── 10_pattern_generation_solutions.ipynb
 │
-├── ⚙️ **Week 03 - Functions & Functional Programming**
-│   ├── 💪 13_function_fundamentals_exercises.ipynb
-│   ├── ✅ 13_function_fundamentals_solutions.ipynb
-│   ├── 💪 14_advanced_functions_exercises.ipynb
-│   ├── ✅ 14_advanced_functions_solutions.ipynb
-│   ├── 💪 15_lambda_and_functional_exercises.ipynb
-│   ├── ✅ 15_lambda_and_functional_solutions.ipynb
-│   ├── 💪 16_decorators_and_generators_exercises.ipynb
-│   ├── ✅ 16_decorators_and_generators_solutions.ipynb
-│   ├── 💪 17_file_io_and_exceptions_exercises.ipynb
-│   ├── ✅ 17_file_io_and_exceptions_solutions.ipynb
-│   ├── 💪 18_advanced_programming_concepts_exercises.ipynb
-│   └── ✅ 18_advanced_programming_concepts_solutions.ipynb
+├── Week 03 - Functions & Functional Programming
+│   ├── Exercise & Solution Notebooks
+│   ├── Sample CSV Files
+│   ├── Sample JSON Files
+│   ├── Text Files
+│   └── Configuration Examples
 │
-├── 🏗️ **Week 04 - Object-Oriented Programming & Modules**
-│   ├── 💪 19_oop_fundamentals_exercises.ipynb
-│   ├── ✅ 19_oop_fundamentals_solutions.ipynb
-│   ├── 💪 20_modules_and_packages_exercises.ipynb
-│   ├── ✅ 20_modules_and_packages_solutions.ipynb
-│   ├── 💪 21_error_handling_mastery_exercises.ipynb
-│   ├── ✅ 21_error_handling_mastery_solutions.ipynb
-│   ├── 💪 22_advanced_oop_patterns_exercises.ipynb
-│   ├── ✅ 22_advanced_oop_patterns_solutions.ipynb
-│   ├── 💪 23_design_patterns_exercises.ipynb
-│   ├── ✅ 23_design_patterns_solutions.ipynb
-│   ├── 💪 24_professional_python_exercises.ipynb
-│   └── ✅ 24_professional_python_solutions.ipynb
+├── Week 04 - Object-Oriented Programming & Modules
+│   ├── Exercise & Solution Notebooks
+│   ├── Python Modules
+│   ├── Python Package Examples
+│   └── Plugin System Examples
 │
-├── 🔢 **Week 05 - NumPy: Numerical Computing Foundation**
-│   ├── 💪 25_numpy_fundamentals_exercises.ipynb
-│   ├── ✅ 25_numpy_fundamentals_solutions.ipynb
-│   ├── 💪 26_array_operations_exercises.ipynb
-│   ├── ✅ 26_array_operations_solutions.ipynb
-│   ├── 💪 27_broadcasting_and_indexing_exercises.ipynb
-│   ├── ✅ 27_broadcasting_and_indexing_solutions.ipynb
-│   ├── 💪 28_linear_algebra_numpy_exercises.ipynb
-│   ├── ✅ 28_linear_algebra_numpy_solutions.ipynb
-│   ├── 💪 29_advanced_numpy_exercises.ipynb
-│   ├── ✅ 29_advanced_numpy_solutions.ipynb
-│   ├── 💪 30_numpy_random_and_stats_exercises.ipynb
-│   └── ✅ 30_numpy_random_and_stats_solutions.ipynb
+├── Week 05 - NumPy: Numerical Computing Foundation
+│   ├── Exercise & Solution Notebooks
+│   └── NumPy Data Files (.npy)
 │
-├── 📊 **Week 06 - Pandas & Data Visualization**
-│   ├── 💪 31_pandas_fundamentals_exercises.ipynb
-│   ├── ✅ 31_pandas_fundamentals_solutions.ipynb
-│   ├── 💪 32_data_manipulation_pandas_exercises.ipynb
-│   ├── ✅ 32_data_manipulation_pandas_solutions.ipynb
-│   ├── 💪 33_matplotlib_visualization_exercises.ipynb
-│   ├── ✅ 33_matplotlib_visualization_solutions.ipynb
-│   ├── 💪 34_seaborn_statistical_plots_exercises.ipynb
-│   ├── ✅ 34_seaborn_statistical_plots_solutions.ipynb
-│   ├── 💪 35_advanced_visualization_exercises.ipynb
-│   ├── ✅ 35_advanced_visualization_solutions.ipynb
-│   ├── 💪 36_interactive_plotting_exercises.ipynb
-│   └── ✅ 36_interactive_plotting_solutions.ipynb
+├── Week 06 - Pandas & Data Visualization
+│   └── Exercise Notebooks
 │
-├── 🧹 **Week 07 - Data Cleaning & Preprocessing**
-│   ├── 💪 37_data_cleaning_fundamentals_exercises.ipynb
-│   ├── ✅ 37_data_cleaning_fundamentals_solutions.ipynb
-│   ├── 💪 38_missing_data_handling_exercises.ipynb
-│   ├── ✅ 38_missing_data_handling_solutions.ipynb
-│   ├── 💪 39_outlier_detection_exercises.ipynb
-│   ├── ✅ 39_outlier_detection_solutions.ipynb
-│   ├── 💪 40_feature_engineering_exercises.ipynb
-│   ├── ✅ 40_feature_engineering_solutions.ipynb
-│   ├── 💪 41_advanced_preprocessing_exercises.ipynb
-│   ├── ✅ 41_advanced_preprocessing_solutions.ipynb
-│   ├── 💪 42_data_pipeline_creation_exercises.ipynb
-│   └── ✅ 42_data_pipeline_creation_solutions.ipynb
+├── Week 07 - Data Cleaning & Preprocessing
+│   └── Exercise Notebooks
 │
-├── 🔍 **Week 08 - Exploratory Data Analysis (EDA)**
-│   ├── 💪 43_statistical_eda_exercises.ipynb
-│   ├── ✅ 43_statistical_eda_solutions.ipynb
-│   ├── 💪 44_dimensionality_reduction_exercises.ipynb
-│   ├── ✅ 44_dimensionality_reduction_solutions.ipynb
-│   ├── 💪 45_correlation_analysis_exercises.ipynb
-│   ├── ✅ 45_correlation_analysis_solutions.ipynb
-│   ├── 💪 46_specialized_eda_exercises.ipynb
-│   ├── ✅ 46_specialized_eda_solutions.ipynb
-│   ├── 💪 47_time_series_eda_exercises.ipynb
-│   ├── ✅ 47_time_series_eda_solutions.ipynb
-│   ├── 💪 48_interactive_eda_exercises.ipynb
-│   └── ✅ 48_interactive_eda_solutions.ipynb
+├── Week 08 - Exploratory Data Analysis (EDA)
+│   └── Exercise Notebooks
 │
-├── 🤖 **Week 09 - Machine Learning Foundations**
-│   ├── 💪 49_ml_introduction_sklearn_exercises.ipynb
-│   ├── ✅ 49_ml_introduction_sklearn_solutions.ipynb
-│   ├── 💪 50_supervised_learning_basics_exercises.ipynb
-│   ├── ✅ 50_supervised_learning_basics_solutions.ipynb
-│   ├── 💪 51_unsupervised_learning_exercises.ipynb
-│   ├── ✅ 51_unsupervised_learning_solutions.ipynb
-│   ├── 💪 52_model_evaluation_exercises.ipynb
-│   ├── ✅ 52_model_evaluation_solutions.ipynb
-│   ├── 💪 53_hyperparameter_tuning_exercises.ipynb
-│   ├── ✅ 53_hyperparameter_tuning_solutions.ipynb
-│   ├── 💪 54_ml_pipeline_exercises.ipynb
-│   └── ✅ 54_ml_pipeline_solutions.ipynb
+├── Week 09 - Machine Learning Foundations
+│   └── Exercise Notebooks
 │
-├── 📈 **Week 10 - Regression & Classification Mastery**
-│   ├── 💪 55_linear_regression_mastery_exercises.ipynb
-│   ├── ✅ 55_linear_regression_mastery_solutions.ipynb
-│   ├── 💪 56_classification_algorithms_exercises.ipynb
-│   ├── ✅ 56_classification_algorithms_solutions.ipynb
-│   ├── 💪 57_advanced_classification_exercises.ipynb
-│   ├── ✅ 57_advanced_classification_solutions.ipynb
-│   ├── 💪 58_model_performance_exercises.ipynb
-│   ├── ✅ 58_model_performance_solutions.ipynb
-│   ├── 💪 59_feature_selection_exercises.ipynb
-│   ├── ✅ 59_feature_selection_solutions.ipynb
-│   ├── 💪 60_model_interpretability_exercises.ipynb
-│   └── ✅ 60_model_interpretability_solutions.ipynb
+├── Week 10 - Regression & Classification Mastery
+│   └── Exercise Notebooks
 │
-├── 🎭 **Week 11 - Ensemble Methods & Advanced ML**
-│   ├── 💪 61_ensemble_fundamentals_exercises.ipynb
-│   ├── ✅ 61_ensemble_fundamentals_solutions.ipynb
-│   ├── 💪 62_boosting_algorithms_exercises.ipynb
-│   ├── ✅ 62_boosting_algorithms_solutions.ipynb
-│   ├── 💪 63_stacking_blending_exercises.ipynb
-│   ├── ✅ 63_stacking_blending_solutions.ipynb
-│   ├── 💪 64_online_learning_exercises.ipynb
-│   ├── ✅ 64_online_learning_solutions.ipynb
-│   ├── 💪 65_bayesian_methods_exercises.ipynb
-│   ├── ✅ 65_bayesian_methods_solutions.ipynb
-│   ├── 💪 66_ensemble_optimization_exercises.ipynb
-│   └── ✅ 66_ensemble_optimization_solutions.ipynb
+├── Week 11 - Ensemble Methods & Advanced ML
+│   └── Exercise Notebooks
 │
-└── 🧠 **Week 12 - Deep Learning & Capstone Projects**
-    ├── 💪 67_deep_learning_intro_exercises.ipynb
-    ├── ✅ 67_deep_learning_intro_solutions.ipynb
-    ├── 💪 68_neural_networks_advanced_exercises.ipynb
-    ├── ✅ 68_neural_networks_advanced_solutions.ipynb
-    ├── 💪 69_cnn_rnn_exercises.ipynb
-    ├── ✅ 69_cnn_rnn_solutions.ipynb
-    ├── 💪 70_capstone_project_1_exercises.ipynb
-    ├── ✅ 70_capstone_project_1_solutions.ipynb
-    ├── 💪 71_capstone_project_2_exercises.ipynb
-    ├── ✅ 71_capstone_project_2_solutions.ipynb
-    ├── 💪 72_portfolio_deployment_exercises.ipynb
-    └── ✅ 72_portfolio_deployment_solutions.ipynb
+└── Week 12 - Deep Learning & Capstone Projects
+    └── Exercise Notebooks
 ```
 
 ## 🚀 Getting Started
